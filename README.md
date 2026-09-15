@@ -1,7 +1,7 @@
-# App documents
+# DopaSpace app documents
 
 The privacy policies, terms and support pages the stores ask for, served by GitHub Pages so
-the apps themselves need no domain and no backend.
+DopaSpace apps need no domain and no backend.
 
 Published at <https://roman-stakhovskyi.github.io/app_docs/>.
 
