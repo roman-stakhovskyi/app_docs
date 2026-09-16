@@ -4,9 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy · Quilting Tracker</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -46,7 +43,9 @@ pictures you pick are copied into the app's own folder. It never scans your libr
   <li><strong>Android:</strong> if you connect a Google account, a copy goes to the hidden
   app-data folder of your own Google Drive. The app asks for one permission,
   <code>drive.appdata</code>, which can only see the folder it created — never the rest of your
-  Drive. You can disconnect at any time, and delete the folder from Google's own
+  Drive. The app shows the email address of the connected account so you can see which one
+  the backup is in; that address stays on the phone and is never sent to us. You can disconnect
+  at any time, and delete the folder from Google's own
   <a href="https://drive.google.com/drive/u/0/settings">Drive settings</a>.</li>
   <li>Separately, Android's own Auto Backup may copy app data as part of the system backup of
   your phone. That is a Google feature, configured in your device settings.</li>
@@ -61,8 +60,9 @@ your phone number or your advertising id, and it is created by the app itself.</
 the answer is still there if you write again; a feature request is kept because the board is
 the list of what people have asked for. We do not use any of it for anything else.</p>
 <p>In the language the GDPR uses: we hold it because we have a legitimate interest in answering
-the person who wrote to us and in knowing what people have asked for. You are not required to
-write, and you may ask us to delete it afterwards.</p>
+the person who wrote to us, in knowing what people have asked for, and in being able to show
+what was said if a dispute about the app ever arises. You are not required to write, and you
+may ask us to delete it afterwards.</p>
 
 <h2>Crash reports</h2>
 <p>Released builds send a report when the app crashes: the error and where in the code it
@@ -74,7 +74,7 @@ look at and still fix it.</p>
 <h2>Purchases</h2>
 <p>If you buy the one-off Pro unlock, the payment is handled entirely by Apple or Google. We
 never see your card, your billing address or your account details — only whether this install
-owns the purchase.</p>
+owns the purchase, which is what we need to give you what you paid for.</p>
 
 <h2>What we do not do</h2>
 <ul>
@@ -86,15 +86,26 @@ owns the purchase.</p>
 
 <h2>Who else handles it</h2>
 <ul>
-  <li><strong>Runport</strong> — our own support and crash dashboard. Messages, feature
-  requests and crash reports are stored there, and nowhere else of ours.</li>
+  <li><strong>Our own support and crash dashboard</strong> — messages, feature requests
+  and crash reports are stored there, and nowhere else of ours. It runs on
+  <a href="https://cloud.google.com/privacy">Google Cloud</a> in the United States, so a
+  message or a crash report travels there. Google LLC is
+  <a href="https://policies.google.com/privacy/frameworks">certified under the EU–US Data
+  Privacy Framework</a>, which is the arrangement EU law accepts for that transfer.</li>
   <li><strong>Apple</strong> — the App Store sale, and iCloud Drive if you back up from an
-  iPhone or iPad. Apple holds that backup under your Apple Account, not ours.</li>
+  iPhone or iPad. Apple holds that backup under your Apple Account, not ours
+  (<a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>).</li>
   <li><strong>Google</strong> — the Play Store sale, and Google Drive if you connect an account
-  on Android. That copy sits in your Drive, in a folder only this app can open.</li>
+  on Android. That copy sits in your Drive, in a folder only this app can open
+  (<a href="https://policies.google.com/privacy">Google's privacy policy</a>).</li>
+  <li><strong>GitHub</strong> — these pages are published with GitHub Pages. GitHub logs the IP
+  address of whoever opens them, for security, under the
+  <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub
+  Privacy Statement</a>. The pages themselves set no cookies and load nothing from anyone else;
+  even the typeface is served from the same place.</li>
 </ul>
 <p>Nobody else. We use no analytics service, no advertising network and no tracking tool, so
-there is no fourth name to add to this list.</p>
+there is no fifth name to add to this list.</p>
 
 <h2>How long things are kept</h2>
 <ul>
@@ -102,7 +113,9 @@ there is no fourth name to add to this list.</p>
   <li><strong>Messages and feature requests:</strong> until you ask us to remove them — see
   below. We do not delete them on a timer, because a conversation you come back to is more use
   to you whole.</li>
-  <li><strong>Crash reports:</strong> 12 months, then they go by themselves.</li>
+  <li><strong>Crash reports:</strong> 90 days, then each report is deleted automatically. What
+  stays is the count of how often a fault happened, which carries nothing that points to your
+  phone.</li>
   <li><strong>Backups:</strong> for as long as you keep them in your own iCloud or Drive.</li>
 </ul>
 
