@@ -1,23 +1,27 @@
-# DopaSpace app documents
+# App documents
 
 The privacy policies, terms and support pages the stores ask for, served by GitHub Pages so
-DopaSpace apps need no domain and no backend.
+the apps need no domain and no backend.
 
 Published at <https://roman-stakhovskyi.github.io/app_docs/>.
 
 ## Layout
 
 ```
-index.html              every app, linked
-style.css               one stylesheet for all of them
+index.html              every app, linked: a list on a phone, a grid of cards from 640px
+style.css               the stylesheet of the documents
+fonts/figtree.css       the self-hosted typeface, shared by both
+icons/<app-name>.png    each app's icon, 192 px
 <app-name>/
   index.html            what the app is, and its documents
   privacy.html
   terms.html
 ```
 
-One folder per app, named as the app is written in a URL. Adding an app is a folder and a
-section in `index.html`.
+One folder per app, named as the app is written in a URL. Adding an app is a folder, its icon
+and an `<article>` in `index.html`, kept in alphabetical order. An app that publishes its
+documents on its own site (DopaSpace, Wedding Toast) gets only the icon and the article,
+linking there.
 
 ## Editing
 
